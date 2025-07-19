@@ -184,6 +184,22 @@ main > section{
     font-weight: 700;
 
 }
+/* footer style */
+    footer{
+        
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 130px;
+        margin-bottom: 100px;
+       
+       
+    }
+footer P{
+    padding: 39px 410px;
+    text-align: center;
+     background-color: #FFF4E7;
+        border-radius: 8px;
+}
 /* media query */
 @media screen and (max-width:576px) {
     .navbar, .nav-links ,.teams, .feature-section{
@@ -211,6 +227,9 @@ main > section{
         margin-top: 20px;
         margin-left:20px;
     }
+    footer P{
+        padding: 20px 15px;
+    }
 }
 
 /* medium device */
@@ -229,5 +248,8 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left:20px;
+    }
+    footer P{
+        padding: 20px 15px;
     }
 }
